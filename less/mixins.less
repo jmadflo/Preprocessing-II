@@ -5,3 +5,20 @@
     justify-content: @justify;
     align-items: @align;
 }
+
+.make_button(@width: 150px, @hover:yellow){
+    display: block;
+    background-color: @button-bg;
+    color: white;
+    margin: 0 10px 20px;
+    width: @width;
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 15px;
+    cursor: pointer;
+    
+    
+    &:hover{
+        background-color:@hover;
+    }
+}

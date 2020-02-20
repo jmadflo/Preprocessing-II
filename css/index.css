@@ -253,3 +253,20 @@ nav .links a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .btn {
+  display: block;
+  background-color: #17A2B8;
+  color: white;
+  margin: 0 10px 20px;
+  width: 80%;
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .content-pick .btn:hover {
+  background-color: red;
+}
