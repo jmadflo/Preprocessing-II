@@ -10,15 +10,31 @@
     display: block;
     background-color: @button-bg;
     color: white;
-    margin: 10px;
+    margin: 10px 0;
     width: @width;
     height: 50px;
     font-size: 2rem;
     border-radius: 15px;
     cursor: pointer;
     
-    
     &:hover{
         background-color:@hover;
     }
 }
+
+// Animation Mixins
+
+// .animate(@duration:4s, @color_1:red, @color_2:blue, @color_3:yellow, @color_4:green) {
+//     &hover {
+//         animation-name: border_party;
+//         animation-duration: @duration;
+//         border: 3px solid @color_1;
+//     }
+      
+//     @keyframes border_party {
+//         0%   {border: 3px solid @color_1;}
+//         25%  {border: 3px solid @color_2;}
+//         50%  {border: 3px solid @color_3;}
+//         100% {border: 3px solid @color_4;}
+//     }
+// }
